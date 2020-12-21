@@ -1,0 +1,541 @@
+[2020-12-03 00:55:29] local.ERROR: Target class [] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [] does not exist. at /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php:805)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\\Container\\Container->build()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\\Container\\Container->resolve()
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\\Foundation\\Application->resolve()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(770): Illuminate\\Container\\Container->make()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(209): Illuminate\\Foundation\\Application->make()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(183): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(66): Illuminate\\Foundation\\Http\\Kernel->terminate()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class  does not exist at /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php:803)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\\Container\\Container->build()
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(785): Illuminate\\Container\\Container->resolve()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\\Foundation\\Application->resolve()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(770): Illuminate\\Container\\Container->make()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(209): Illuminate\\Foundation\\Application->make()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(183): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(66): Illuminate\\Foundation\\Http\\Kernel->terminate()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#9 {main}
+"} 
+[2020-12-03 01:21:04] local.ERROR: Undefined variable: verified {"exception":"[object] (ErrorException(code: 0): Undefined variable: verified at /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Controllers/InstallerController.php:282)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Controllers/InstallerController.php(282): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Controllers/InstallerController.php(86): Modules\\Installer\\Http\\Controllers\\InstallerController->valid_purchase_code()
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): Modules\\Installer\\Http\\Controllers\\InstallerController->do_install()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\\Routing\\Route->runController()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Route->run()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/app/Http/Middleware/XSS.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): App\\Http\\Middleware\\XSS->handle()
+#10 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#12 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(77): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#14 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#16 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle()
+#18 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#20 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#22 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then()
+#24 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack()
+#25 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute()
+#26 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute()
+#27 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch()
+#28 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#29 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fruitcake/laravel-cors/src/HandleCors.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fruitcake\\Cors\\HandleCors->handle()
+#31 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#35 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#37 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#39 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle()
+#41 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then()
+#43 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#44 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(61): Illuminate\\Foundation\\Http\\Kernel->handle()
+#45 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#46 {main}
+"} 
+[2020-12-03 01:25:32] local.INFO: local  
+[2020-12-03 01:25:32] local.INFO: local  
+[2020-12-03 01:25:56] local.INFO: local  
+[2020-12-03 01:26:31] local.INFO: local  
+[2020-12-03 01:26:31] local.INFO: local  
+[2020-12-03 01:26:48] local.INFO: local  
+[2020-12-03 01:27:01] local.INFO: local  
+[2020-12-03 01:27:01] local.INFO: local  
+[2020-12-03 01:27:06] local.INFO: local  
+[2020-12-03 01:27:22] local.INFO: local  
+[2020-12-03 01:27:31] local.INFO: local  
+[2020-12-03 01:27:31] local.INFO: local  
+[2020-12-03 01:27:34] local.INFO: local  
+[2020-12-03 01:28:02] local.INFO: local  
+[2020-12-03 01:28:03] local.INFO: local  
+[2020-12-03 01:28:16] local.INFO: local  
+[2020-12-03 01:28:21] local.INFO: local  
+[2020-12-03 01:28:31] local.INFO: local  
+[2020-12-03 01:28:31] local.INFO: local  
+[2020-12-03 01:29:17] local.INFO: local  
+[2020-12-03 01:29:18] local.INFO: local  
+[2020-12-03 01:29:23] local.INFO: local  
+[2020-12-03 01:29:31] local.INFO: local  
+[2020-12-03 01:29:31] local.INFO: local  
+[2020-12-03 01:29:33] local.INFO: local  
+[2020-12-03 01:29:37] local.INFO: local  
+[2020-12-03 01:29:50] local.INFO: local  
+[2020-12-03 01:29:50] local.INFO: local  
+[2020-12-03 01:30:31] local.INFO: local  
+[2020-12-03 01:30:31] local.INFO: local  
+[2020-12-03 01:31:21] local.INFO: local  
+[2020-12-03 01:31:24] local.INFO: local  
+[2020-12-03 01:31:31] local.INFO: local  
+[2020-12-03 01:31:32] local.INFO: local  
+[2020-12-03 01:31:37] local.INFO: local  
+[2020-12-03 01:31:37] local.INFO: local  
+[2020-12-03 01:31:42] local.INFO: local  
+[2020-12-03 01:31:54] local.INFO: local  
+[2020-12-03 01:32:01] local.INFO: local  
+[2020-12-03 01:32:14] local.INFO: local  
+[2020-12-03 01:32:14] local.INFO: local  
+[2020-12-03 01:32:31] local.INFO: local  
+[2020-12-03 01:32:31] local.INFO: local  
+[2020-12-03 01:33:19] local.INFO: local  
+[2020-12-03 01:33:32] local.INFO: local  
+[2020-12-03 01:33:32] local.INFO: local  
+[2020-12-03 01:33:51] local.INFO: local  
+[2020-12-03 01:33:58] local.INFO: local  
+[2020-12-03 01:34:31] local.INFO: local  
+[2020-12-03 01:34:31] local.INFO: local  
+[2020-12-03 01:35:15] local.INFO: local  
+[2020-12-03 01:35:15] local.INFO: local  
+[2020-12-03 01:35:18] local.INFO: local  
+[2020-12-03 01:35:28] local.INFO: local  
+[2020-12-03 01:35:28] local.INFO: local  
+[2020-12-03 01:35:31] local.INFO: local  
+[2020-12-03 01:35:31] local.INFO: local  
+[2020-12-03 01:35:41] local.INFO: local  
+[2020-12-03 01:35:41] local.INFO: local  
+[2020-12-03 01:36:32] local.INFO: local  
+[2020-12-03 01:36:32] local.INFO: local  
+[2020-12-03 01:37:31] local.INFO: local  
+[2020-12-03 01:37:31] local.INFO: local  
+[2020-12-03 01:37:47] local.INFO: local  
+[2020-12-03 01:37:48] local.INFO: local  
+[2020-12-03 01:37:53] local.INFO: local  
+[2020-12-03 01:38:06] local.INFO: local  
+[2020-12-03 01:38:14] local.INFO: local  
+[2020-12-03 01:38:24] local.INFO: local  
+[2020-12-03 01:38:32] local.INFO: local  
+[2020-12-03 01:38:32] local.INFO: local  
+[2020-12-03 01:39:05] local.INFO: local  
+[2020-12-03 01:39:31] local.INFO: local  
+[2020-12-03 01:39:31] local.INFO: local  
+[2020-12-03 01:39:43] local.INFO: local  
+[2020-12-03 01:39:50] local.INFO: local  
+[2020-12-03 01:39:50] local.INFO: local  
+[2020-12-03 01:39:53] local.INFO: local  
+[2020-12-03 01:40:10] local.INFO: local  
+[2020-12-03 01:40:10] local.INFO: local  
+[2020-12-03 01:40:15] local.INFO: local  
+[2020-12-03 01:40:31] local.INFO: local  
+[2020-12-03 01:40:31] local.INFO: local  
+[2020-12-03 01:40:52] local.INFO: local  
+[2020-12-03 01:41:05] local.INFO: local  
+[2020-12-03 01:41:31] local.INFO: local  
+[2020-12-03 01:41:31] local.INFO: local  
+[2020-12-03 01:41:42] local.INFO: local  
+[2020-12-03 01:41:44] local.INFO: local  
+[2020-12-03 01:41:48] local.INFO: local  
+[2020-12-03 01:42:22] local.INFO: local  
+[2020-12-03 01:42:22] local.INFO: local  
+[2020-12-03 01:42:31] local.INFO: local  
+[2020-12-03 01:42:32] local.INFO: local  
+[2020-12-03 01:42:32] local.INFO: local  
+[2020-12-03 01:42:32] local.INFO: local  
+[2020-12-03 01:42:34] local.INFO: local  
+[2020-12-03 01:42:34] local.INFO: local  
+[2020-12-03 01:42:41] local.INFO: local  
+[2020-12-03 01:42:42] local.INFO: local  
+[2020-12-03 01:42:45] local.INFO: local  
+[2020-12-03 01:42:57] local.INFO: local  
+[2020-12-03 01:42:58] local.INFO: local  
+[2020-12-03 01:43:03] local.INFO: local  
+[2020-12-03 01:43:15] local.INFO: local  
+[2020-12-03 01:43:15] local.ERROR: Trying to access array offset on value of type null (View: /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Resources/views/submitted_posts.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Trying to access array offset on value of type null (View: /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Resources/views/submitted_posts.blade.php) at /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Providers/../Resources/views/submitted_posts.blade.php:85)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Providers/../Resources/views/submitted_posts.blade.php(85): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/officialo...')
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(36): Illuminate\\View\\Engines\\CompilerEngine->get()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(143): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\\View\\View->getContents()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/symfony/http-foundation/Response.php(205): Illuminate\\Http\\Response->setContent()
+#9 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(749): Symfony\\Component\\HttpFoundation\\Response->__construct()
+#10 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\\Routing\\Router::toResponse()
+#11 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Router->prepareResponse()
+#12 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#13 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/PermissionCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\permissionCheckMiddleware->handle()
+#15 /home/officialozioma/Downloads/zip/project/onno/onno/app/Http/Middleware/XSS.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): App\\Http\\Middleware\\XSS->handle()
+#17 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/LoginCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\LoginCheckMiddleware->handle()
+#19 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Middleware/CheckInstalledMiddleware.php(29): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\Installer\\Http\\Middleware\\CheckInstalledMiddleware->handle()
+#21 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationViewPath.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationViewPath->handle()
+#23 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRedirectFilter.php(45): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRedirectFilter->handle()
+#25 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleSessionRedirect.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LocaleSessionRedirect->handle()
+#27 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#29 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(77): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#31 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#33 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle()
+#35 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#37 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#39 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then()
+#41 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack()
+#42 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute()
+#43 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute()
+#44 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch()
+#45 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#46 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fruitcake/laravel-cors/src/HandleCors.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fruitcake\\Cors\\HandleCors->handle()
+#48 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#50 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#52 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#54 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#56 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle()
+#58 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#59 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then()
+#60 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#61 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(61): Illuminate\\Foundation\\Http\\Kernel->handle()
+#62 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#63 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/officialozioma/Downloads/zip/project/onno/onno/storage/framework/views/479fdc97a91308cddd5b61b5ef955a2db3745c36.php:79)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/storage/framework/views/479fdc97a91308cddd5b61b5ef955a2db3745c36.php(79): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/officialo...')
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(36): Illuminate\\View\\Engines\\CompilerEngine->get()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(143): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\\View\\View->getContents()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/symfony/http-foundation/Response.php(205): Illuminate\\Http\\Response->setContent()
+#9 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(749): Symfony\\Component\\HttpFoundation\\Response->__construct()
+#10 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\\Routing\\Router::toResponse()
+#11 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Router->prepareResponse()
+#12 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#13 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/PermissionCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\permissionCheckMiddleware->handle()
+#15 /home/officialozioma/Downloads/zip/project/onno/onno/app/Http/Middleware/XSS.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): App\\Http\\Middleware\\XSS->handle()
+#17 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/LoginCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\LoginCheckMiddleware->handle()
+#19 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Middleware/CheckInstalledMiddleware.php(29): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\Installer\\Http\\Middleware\\CheckInstalledMiddleware->handle()
+#21 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationViewPath.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationViewPath->handle()
+#23 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRedirectFilter.php(45): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRedirectFilter->handle()
+#25 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleSessionRedirect.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LocaleSessionRedirect->handle()
+#27 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#29 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(77): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#31 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#33 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle()
+#35 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#37 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#39 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then()
+#41 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack()
+#42 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute()
+#43 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute()
+#44 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch()
+#45 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#46 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fruitcake/laravel-cors/src/HandleCors.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fruitcake\\Cors\\HandleCors->handle()
+#48 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#50 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#52 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#54 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#56 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle()
+#58 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#59 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then()
+#60 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#61 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(61): Illuminate\\Foundation\\Http\\Kernel->handle()
+#62 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#63 {main}
+"} 
+[2020-12-03 01:43:18] local.INFO: local  
+[2020-12-03 01:43:18] local.ERROR: Trying to access array offset on value of type null (View: /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Resources/views/submitted_posts.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Trying to access array offset on value of type null (View: /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Resources/views/submitted_posts.blade.php) at /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Providers/../Resources/views/submitted_posts.blade.php:85)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Post/Providers/../Resources/views/submitted_posts.blade.php(85): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/officialo...')
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(36): Illuminate\\View\\Engines\\CompilerEngine->get()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(143): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\\View\\View->getContents()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/symfony/http-foundation/Response.php(205): Illuminate\\Http\\Response->setContent()
+#9 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(749): Symfony\\Component\\HttpFoundation\\Response->__construct()
+#10 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\\Routing\\Router::toResponse()
+#11 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Router->prepareResponse()
+#12 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#13 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/PermissionCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\permissionCheckMiddleware->handle()
+#15 /home/officialozioma/Downloads/zip/project/onno/onno/app/Http/Middleware/XSS.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): App\\Http\\Middleware\\XSS->handle()
+#17 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/LoginCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\LoginCheckMiddleware->handle()
+#19 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Middleware/CheckInstalledMiddleware.php(29): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\Installer\\Http\\Middleware\\CheckInstalledMiddleware->handle()
+#21 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationViewPath.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationViewPath->handle()
+#23 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRedirectFilter.php(45): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRedirectFilter->handle()
+#25 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleSessionRedirect.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LocaleSessionRedirect->handle()
+#27 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#29 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(77): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#31 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#33 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle()
+#35 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#37 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#39 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then()
+#41 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack()
+#42 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute()
+#43 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute()
+#44 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch()
+#45 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#46 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fruitcake/laravel-cors/src/HandleCors.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fruitcake\\Cors\\HandleCors->handle()
+#48 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#50 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#52 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#54 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#56 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle()
+#58 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#59 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then()
+#60 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#61 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(61): Illuminate\\Foundation\\Http\\Kernel->handle()
+#62 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#63 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/officialozioma/Downloads/zip/project/onno/onno/storage/framework/views/479fdc97a91308cddd5b61b5ef955a2db3745c36.php:79)
+[stacktrace]
+#0 /home/officialozioma/Downloads/zip/project/onno/onno/storage/framework/views/479fdc97a91308cddd5b61b5ef955a2db3745c36.php(79): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/officialo...')
+#2 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#3 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(36): Illuminate\\View\\Engines\\CompilerEngine->get()
+#4 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(143): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#5 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\\View\\View->getContents()
+#6 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#7 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Http/Response.php(42): Illuminate\\View\\View->render()
+#8 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/symfony/http-foundation/Response.php(205): Illuminate\\Http\\Response->setContent()
+#9 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(749): Symfony\\Component\\HttpFoundation\\Response->__construct()
+#10 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\\Routing\\Router::toResponse()
+#11 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(681): Illuminate\\Routing\\Router->prepareResponse()
+#12 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#13 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/PermissionCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\permissionCheckMiddleware->handle()
+#15 /home/officialozioma/Downloads/zip/project/onno/onno/app/Http/Middleware/XSS.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): App\\Http\\Middleware\\XSS->handle()
+#17 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/User/Http/Middleware/LoginCheckMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\User\\Http\\Middleware\\LoginCheckMiddleware->handle()
+#19 /home/officialozioma/Downloads/zip/project/onno/onno/Modules/Installer/Http/Middleware/CheckInstalledMiddleware.php(29): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Modules\\Installer\\Http\\Middleware\\CheckInstalledMiddleware->handle()
+#21 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationViewPath.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationViewPath->handle()
+#23 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LaravelLocalizationRedirectFilter.php(45): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LaravelLocalizationRedirectFilter->handle()
+#25 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/Middleware/LocaleSessionRedirect.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Mcamara\\LaravelLocalization\\Middleware\\LocaleSessionRedirect->handle()
+#27 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#29 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(77): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#31 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#33 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(56): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Session\\Middleware\\StartSession->handle()
+#35 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#37 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#39 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(683): Illuminate\\Pipeline\\Pipeline->then()
+#41 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Router->runRouteWithinStack()
+#42 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(624): Illuminate\\Routing\\Router->runRoute()
+#43 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Routing/Router.php(613): Illuminate\\Routing\\Router->dispatchToRoute()
+#44 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\\Routing\\Router->dispatch()
+#45 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#46 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fruitcake/laravel-cors/src/HandleCors.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fruitcake\\Cors\\HandleCors->handle()
+#48 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#50 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#52 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#54 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(63): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#56 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(171): Fideloper\\Proxy\\TrustProxies->handle()
+#58 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(105): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#59 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Pipeline\\Pipeline->then()
+#60 /home/officialozioma/Downloads/zip/project/onno/onno/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#61 /home/officialozioma/Downloads/zip/project/onno/onno/public/index.php(61): Illuminate\\Foundation\\Http\\Kernel->handle()
+#62 /home/officialozioma/Downloads/zip/project/onno/onno/server.php(21): require_once('/home/officialo...')
+#63 {main}
+"} 
+[2020-12-03 01:43:26] local.INFO: local  
+[2020-12-03 01:43:31] local.INFO: local  
+[2020-12-03 01:43:31] local.INFO: local  
+[2020-12-03 01:43:35] local.INFO: local  
+[2020-12-03 01:43:35] local.INFO: local  
+[2020-12-03 01:43:43] local.INFO: local  
+[2020-12-03 01:43:44] local.INFO: local  
+[2020-12-03 01:43:51] local.INFO: local  
+[2020-12-03 01:43:58] local.INFO: local  
+[2020-12-03 01:44:11] local.INFO: local  
+[2020-12-03 01:44:11] local.INFO: local  
+[2020-12-03 01:44:32] local.INFO: local  
+[2020-12-03 01:44:32] local.INFO: local  
+[2020-12-03 01:45:02] local.INFO: local  
+[2020-12-03 01:45:31] local.INFO: local  
+[2020-12-03 01:45:31] local.INFO: local  
+[2020-12-03 01:45:43] local.INFO: local  
+[2020-12-03 01:45:48] local.INFO: local  
+[2020-12-03 01:46:31] local.INFO: local  
+[2020-12-03 01:46:31] local.INFO: local  
+[2020-12-03 01:47:16] local.INFO: local  
+[2020-12-03 01:47:24] local.INFO: local  
+[2020-12-03 01:47:29] local.INFO: local  
+[2020-12-03 01:47:31] local.INFO: local  
+[2020-12-03 01:47:31] local.INFO: local  
+[2020-12-03 01:47:38] local.INFO: local  
+[2020-12-03 01:47:38] local.INFO: local  
+[2020-12-03 01:47:44] local.INFO: local  
+[2020-12-03 01:48:19] local.INFO: local  
+[2020-12-03 01:48:19] local.INFO: local  
+[2020-12-03 01:48:19] local.INFO: local  
+[2020-12-03 01:48:20] local.INFO: local  
+[2020-12-03 01:48:20] local.INFO: local  
+[2020-12-03 01:48:22] local.INFO: local  
+[2020-12-03 01:48:24] local.INFO: local  
+[2020-12-03 01:48:25] local.INFO: local  
+[2020-12-03 01:48:26] local.INFO: local  
+[2020-12-03 01:48:26] local.INFO: local  
+[2020-12-03 01:48:27] local.INFO: local  
+[2020-12-03 01:48:31] local.INFO: local  
+[2020-12-03 01:48:32] local.INFO: local  
+[2020-12-03 01:48:54] local.INFO: local  
+[2020-12-03 01:48:55] local.INFO: local  
+[2020-12-03 01:48:56] local.INFO: local  
+[2020-12-03 01:48:56] local.INFO: local  
+[2020-12-03 01:48:56] local.INFO: local  
+[2020-12-03 01:48:57] local.INFO: local  
+[2020-12-03 01:49:06] local.INFO: local  
+[2020-12-03 01:49:08] local.INFO: local  
+[2020-12-03 01:49:09] local.INFO: local  
+[2020-12-03 01:49:09] local.INFO: local  
+[2020-12-03 01:49:10] local.INFO: local  
+[2020-12-03 01:49:10] local.INFO: local  
+[2020-12-03 01:49:31] local.INFO: local  
+[2020-12-03 01:49:31] local.INFO: local  
+[2020-12-03 01:50:31] local.INFO: local  
+[2020-12-03 01:50:31] local.INFO: local  
+[2020-12-03 01:51:31] local.INFO: local  
+[2020-12-03 01:51:32] local.INFO: local  
+[2020-12-03 01:52:30] local.INFO: local  
+[2020-12-03 01:52:32] local.INFO: local  
+[2020-12-03 01:52:32] local.INFO: local  
+[2020-12-03 01:53:32] local.INFO: local  
+[2020-12-03 01:53:32] local.INFO: local  
+[2020-12-03 01:54:32] local.INFO: local  
+[2020-12-03 01:54:32] local.INFO: local  
+[2020-12-03 01:55:32] local.INFO: local  
+[2020-12-03 01:55:32] local.INFO: local  
+[2020-12-03 01:56:32] local.INFO: local  
+[2020-12-03 01:56:32] local.INFO: local  
+[2020-12-03 01:57:31] local.INFO: local  
+[2020-12-03 01:57:31] local.INFO: local  
+[2020-12-03 01:58:31] local.INFO: local  
+[2020-12-03 01:58:31] local.INFO: local  
+[2020-12-03 01:59:31] local.INFO: local  
+[2020-12-03 01:59:31] local.INFO: local  
+[2020-12-03 02:00:31] local.INFO: local  
+[2020-12-03 02:00:31] local.INFO: local  
+[2020-12-03 02:01:31] local.INFO: local  
+[2020-12-03 02:01:31] local.INFO: local  
+[2020-12-03 02:02:31] local.INFO: local  
+[2020-12-03 02:02:31] local.INFO: local  
+[2020-12-03 02:03:31] local.INFO: local  
+[2020-12-03 02:03:31] local.INFO: local  
+[2020-12-03 02:04:31] local.INFO: local  
+[2020-12-03 02:04:31] local.INFO: local  
+[2020-12-03 02:05:31] local.INFO: local  
+[2020-12-03 02:05:31] local.INFO: local  
+[2020-12-03 02:06:31] local.INFO: local  
+[2020-12-03 02:06:31] local.INFO: local  
+[2020-12-03 02:07:32] local.INFO: local  
+[2020-12-03 02:07:32] local.INFO: local  
